@@ -1,0 +1,47 @@
+
+
+
+
+	@media  screen and (width:480px) {
+#menu {
+    position: absolute;
+    background: white;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(110%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    width: 66vw;
+    padding: 0 30px;
+    right: 0;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    top: 2.3rem;
+    height: 40vw;
+    overflow-y: scroll;
+    padding-bottom: 6px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: wrap;
+}
+  li.cont a {
+    font-size: 30px;
+}
+li.cont {
+    width: 100%;
+}
+#menuToggle a:hover {
+    font-size: 30px;
+}
+}
+ 
+
+
+
+
+ 
+        @media (min-width:480px) {
+ 
+}
+
+ 
